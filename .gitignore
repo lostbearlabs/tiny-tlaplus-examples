@@ -1,0 +1,7 @@
+# OS X folder state
+.DS_Store
+
+# TLA+ Toolbox working state
+*.toolbox
+
+
