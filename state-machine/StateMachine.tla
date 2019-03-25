@@ -10,7 +10,10 @@ define
     
     \* TEMPORAL FORMULA:  since the process is fair, we will always
     \* eventually get a Y and terminate, and once we terminate we will
-    \* stay terminated
+    \* stay terminated.
+    \*
+    \* NOTE:  this condition does not actually hold true.
+    \* See:  https://stackoverflow.com/questions/55128505/tla-why-does-fair-algorithm-still-stutter
     MachineTerminates == <>[](state = "end")
 end define;
     
