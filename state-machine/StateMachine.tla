@@ -1,5 +1,7 @@
 ---------------------------- MODULE StateMachine ----------------------------
 
+\* See README.md
+
 (*--fair algorithm stateMachine
 variables
     state = "start";
@@ -38,6 +40,9 @@ VARIABLES state, pc
 
 (* define statement *)
 StateValid == state \in {"start", "reading", "end"}
+
+
+
 
 
 
