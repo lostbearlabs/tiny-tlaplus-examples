@@ -13,7 +13,7 @@ CONSTANT N      (* Number of participants *)
 variables 
     (* a legal assignment maps each giver to a unique receiver different from themself *)
     assignment \in {p \in Permutations(1..N) : (\A i \in (1..N): (p[i] /= i))}, 
-    (* keep track of who has received a givt *)
+    (* keep track of who has received a gift *)
     received = [ i \in 1..N |-> FALSE],
     (* keep track of how many gifts have been given *)
     gifts_given = 0;
@@ -39,7 +39,7 @@ end process;
    succeeded.  For this spec it's redundant since we have a stronger
    check with the invariant EverybodyGetsGift.  But if it were possible
    for some behaviors where everybody gives their gift and some behaviors
-   where the exchange never finishes, ten this monitor would still validate
+   where the exchange never finishes, then this monitor would still validate
    the end state for behaviors where the exchange does complete. *)
 process monitor = N+1
 begin
