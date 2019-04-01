@@ -12,8 +12,10 @@ For more sophisticated examples, see:
 ## List of Examples
 
 * **state-machine** :  TLA+ works by modeling systems via state machines.  If we model an actual state machine this way, how does the generated state graph compare to the machine we're modeling?
-* **linear-search** : Example of using TLA+ to validate the correctness of a procedural algorithm.
-* **secret-santa** : Example of using TLA+ to model a concurrent system.
+* **linear-search** : What does it look like to validate the correctness of a procedural algorithm?
+* **secret-santa** : What does it look like to model a concurrent system?
+* **count-down** : What does it look like to specify a temporal condition?
+* **simple-logic** : How can you use TLA+ to validate formulas in predicate logic?
 
 
 ## Contributing
