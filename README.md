@@ -48,10 +48,18 @@ How can you use TLA+ to find deadlocks in a concurrent system?
 
 `#concurrency` `#liveness`
 
+### [race-condition](./race-condition)
+
+What does it look like when two processes interact incorrectly due to a race condition?
+
+`#concurrency` `#safety`
+
+
+
 
 ## Contributing
 
 Contributions are welcome.  
 * Please make sure examples are *very small*.
-* Put each example in its own subfolder with a README.md file
+* Put each example in its own subfolder with a README.md file.  (These examples use README files instead of putting all documentation into the spec itself so that they will be easier to explore on Github.  As soon as a user navigates to a folder they will be reading the documentation in their browser, rather than having to navigate into the individual spec file.)
 * Name sub-folders and examples using the existing pattern of "spec-name" for the folder and "SpecName.tla" for the TLA+ file.
