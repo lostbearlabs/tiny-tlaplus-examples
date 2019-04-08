@@ -1,7 +1,10 @@
 # OS X folder state
 .DS_Store
 
-# TLA+ Toolbox working state
-*.toolbox
-
+# Exclude TLA+ Toolbox working state and snapshots
+**/*.toolbox/*
+# (but include model files)
+!**/*.toolbox/*.launch
+# (but don't include snapshots of model files)
+**/*.toolbox/*_Snapshot_*.launch
 
