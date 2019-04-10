@@ -60,6 +60,13 @@ How can one module use operators defined in another module?
 
 `#modules`
 
+### [implements](./implements)
+
+How can one module parameterize and/or namespace operators defined in another module?
+
+`#modules`
+
+
 
 
 ## Contributing
