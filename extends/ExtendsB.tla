@@ -1,11 +1,11 @@
 
----- MODULE ModuleB ----
+---- MODULE ExtendsB ----
 
-EXTENDS ModuleA, TLC
+EXTENDS ExtendsA, TLC
 
 \* see README.md
 
-(*--algorithm ModuleB
+(*--algorithm ExtendsB
 begin
 
 assert( IsEven(2) );

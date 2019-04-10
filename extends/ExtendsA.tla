@@ -1,5 +1,5 @@
 
----- MODULE ModuleA ----
+---- MODULE ExtendsA ----
 EXTENDS Integers
 
 \* See README.md

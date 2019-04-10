@@ -6,5 +6,5 @@
 <listAttribute key="modelCorrectnessProperties">
 <listEntry value="0Termination"/>
 </listAttribute>
-<stringAttribute key="specName" value="ModuleB"/>
+<stringAttribute key="specName" value="ExtendsB"/>
 </launchConfiguration>

@@ -1,8 +1,8 @@
 
 # Tiny TLA+ Example:  Implements
 
-This is a trivial example of having one module (`ModuleB`) extend and use definitions
-from another (`ModuleA`) with parameterization and namespacing.
+This is a trivial example of having one module (`ImplementsB`) extend and use definitions
+from another (`ImplementsA`) with parameterization and namespacing.
 
 `ImplementsA` just defines the (local) variable `A`.
 
