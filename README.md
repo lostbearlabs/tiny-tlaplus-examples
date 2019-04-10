@@ -54,6 +54,11 @@ What does it look like when two processes interact incorrectly due to a race con
 
 `#concurrency` `#safety`
 
+### [extends](./extends)
+
+How can one module use operators defined in another module?
+
+`#modules`
 
 
 
