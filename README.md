@@ -66,7 +66,11 @@ How can one module parameterize and/or namespace operators defined in another mo
 
 `#modules`
 
+### [list-operations](./list-operations)
 
+Basic functional list operations(Head/Tail/Append/LenReverse) on sequences.
+
+`#sequences` `#recursion`
 
 
 ## Contributing
